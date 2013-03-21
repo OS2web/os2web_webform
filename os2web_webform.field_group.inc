@@ -23,12 +23,12 @@ function os2web_webform_field_group_info() {
     'label' => 'Taksonomier',
     'weight' => '4',
     'children' => array(
-      0 => 'field_editortags',
-      1 => 'field_organization',
-      2 => 'field_site_structure',
-      3 => 'field_termref_kle',
-      4 => 'field_termref_sofd',
-      5 => 'field_termref_sted',
+      0 => 'field_os2web_webform_editortags',
+      1 => 'field_os2web_webform_org',
+      2 => 'field_os2web_webform_sitestruct',
+      3 => 'field_os2web_webform_kle',
+      4 => 'field_os2web_webform_sofd',
+      5 => 'field_os2web_webform_place',
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(

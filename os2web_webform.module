@@ -63,7 +63,7 @@ function os2web_webform_process_submission(&$submission, $node) {
       'sid' => $submission->sid,
       'nid' => $node->nid,
       'node' => $node,
-      'files' => render(field_view_field('node', $node, 'field_webform_attachment', array('label' => 'hidden'))),
+      'files' => render(field_view_field('node', $node, 'field_os2web_webform_attach', array('label' => 'hidden'))),
       'fields' => $fields,
     );
 

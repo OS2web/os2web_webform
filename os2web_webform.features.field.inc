@@ -87,14 +87,14 @@ function os2web_webform_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-webform-field_editortags'.
-  $fields['node-webform-field_editortags'] = array(
+  // Exported field: 'node-webform-field_os2web_webform_editortags'.
+  $fields['node-webform-field_os2web_webform_editortags'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '-1',
       'deleted' => '0',
       'entity_types' => array(),
-      'field_name' => 'field_editortags',
+      'field_name' => 'field_os2web_webform_editortags',
       'foreign keys' => array(
         'tid' => array(
           'columns' => array(
@@ -148,7 +148,7 @@ function os2web_webform_field_default_fields() {
         ),
       ),
       'entity_type' => 'node',
-      'field_name' => 'field_editortags',
+      'field_name' => 'field_os2web_webform_editortags',
       'label' => 'Stikord',
       'required' => 0,
       'settings' => array(
@@ -168,14 +168,14 @@ function os2web_webform_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-webform-field_organization'.
-  $fields['node-webform-field_organization'] = array(
+  // Exported field: 'node-webform-field_os2web_webform_org'.
+  $fields['node-webform-field_os2web_webform_org'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '-1',
       'deleted' => '0',
       'entity_types' => array(),
-      'field_name' => 'field_organization',
+      'field_name' => 'field_os2web_webform_org',
       'foreign keys' => array(
         'tid' => array(
           'columns' => array(
@@ -229,7 +229,7 @@ function os2web_webform_field_default_fields() {
         ),
       ),
       'entity_type' => 'node',
-      'field_name' => 'field_organization',
+      'field_name' => 'field_os2web_webform_org',
       'label' => 'Organisation',
       'required' => 0,
       'settings' => array(
@@ -249,14 +249,14 @@ function os2web_webform_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-webform-field_resume_long'.
-  $fields['node-webform-field_resume_long'] = array(
+  // Exported field: 'node-webform-field_os2web_webform_summary'.
+  $fields['node-webform-field_os2web_webform_summary'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
       'deleted' => '0',
       'entity_types' => array(),
-      'field_name' => 'field_resume_long',
+      'field_name' => 'field_os2web_webform_summary',
       'foreign keys' => array(
         'format' => array(
           'columns' => array(
@@ -302,7 +302,7 @@ function os2web_webform_field_default_fields() {
         ),
       ),
       'entity_type' => 'node',
-      'field_name' => 'field_resume_long',
+      'field_name' => 'field_os2web_webform_summary',
       'label' => 'Resume',
       'required' => 0,
       'settings' => array(
@@ -323,14 +323,14 @@ function os2web_webform_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-webform-field_site_structure'.
-  $fields['node-webform-field_site_structure'] = array(
+  // Exported field: 'node-webform-field_os2web_webform_sitestruct'.
+  $fields['node-webform-field_os2web_webform_sitestruct'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
       'deleted' => '0',
       'entity_types' => array(),
-      'field_name' => 'field_site_structure',
+      'field_name' => 'field_os2web_webform_sitestruct',
       'foreign keys' => array(
         'tid' => array(
           'columns' => array(
@@ -385,7 +385,7 @@ function os2web_webform_field_default_fields() {
         ),
       ),
       'entity_type' => 'node',
-      'field_name' => 'field_site_structure',
+      'field_name' => 'field_os2web_webform_sitestruct',
       'label' => 'Portalkategori',
       'required' => 0,
       'settings' => array(
@@ -403,14 +403,14 @@ function os2web_webform_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-webform-field_termref_kle'.
-  $fields['node-webform-field_termref_kle'] = array(
+  // Exported field: 'node-webform-field_os2web_webform_kle'.
+  $fields['node-webform-field_os2web_webform_kle'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '-1',
       'deleted' => '0',
       'entity_types' => array(),
-      'field_name' => 'field_termref_kle',
+      'field_name' => 'field_os2web_webform_kle',
       'foreign keys' => array(
         'tid' => array(
           'columns' => array(
@@ -464,7 +464,7 @@ function os2web_webform_field_default_fields() {
         ),
       ),
       'entity_type' => 'node',
-      'field_name' => 'field_termref_kle',
+      'field_name' => 'field_os2web_webform_kle',
       'label' => 'KLE',
       'required' => 0,
       'settings' => array(
@@ -484,14 +484,14 @@ function os2web_webform_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-webform-field_termref_sofd'.
-  $fields['node-webform-field_termref_sofd'] = array(
+  // Exported field: 'node-webform-field_os2web_webform_sofd'.
+  $fields['node-webform-field_os2web_webform_sofd'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '-1',
       'deleted' => '0',
       'entity_types' => array(),
-      'field_name' => 'field_termref_sofd',
+      'field_name' => 'field_os2web_webform_sofd',
       'foreign keys' => array(
         'tid' => array(
           'columns' => array(
@@ -545,7 +545,7 @@ function os2web_webform_field_default_fields() {
         ),
       ),
       'entity_type' => 'node',
-      'field_name' => 'field_termref_sofd',
+      'field_name' => 'field_os2web_webform_sofd',
       'label' => 'Søgeord SOFD',
       'required' => 0,
       'settings' => array(
@@ -565,14 +565,14 @@ function os2web_webform_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-webform-field_termref_sted'.
-  $fields['node-webform-field_termref_sted'] = array(
+  // Exported field: 'node-webform-field_os2web_webform_place'.
+  $fields['node-webform-field_os2web_webform_place'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '-1',
       'deleted' => '0',
       'entity_types' => array(),
-      'field_name' => 'field_termref_sted',
+      'field_name' => 'field_os2web_webform_place',
       'foreign keys' => array(
         'tid' => array(
           'columns' => array(
@@ -626,7 +626,7 @@ function os2web_webform_field_default_fields() {
         ),
       ),
       'entity_type' => 'node',
-      'field_name' => 'field_termref_sted',
+      'field_name' => 'field_os2web_webform_place',
       'label' => 'Egenavne / stednavne',
       'required' => 0,
       'settings' => array(
@@ -646,14 +646,14 @@ function os2web_webform_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-webform-field_webform_attachment'.
-  $fields['node-webform-field_webform_attachment'] = array(
+  // Exported field: 'node-webform-field_os2web_webform_attach'.
+  $fields['node-webform-field_os2web_webform_attach'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '-1',
       'deleted' => '0',
       'entity_types' => array(),
-      'field_name' => 'field_webform_attachment',
+      'field_name' => 'field_os2web_webform_attach',
       'foreign keys' => array(
         'fid' => array(
           'columns' => array(
@@ -702,7 +702,7 @@ function os2web_webform_field_default_fields() {
         ),
       ),
       'entity_type' => 'node',
-      'field_name' => 'field_webform_attachment',
+      'field_name' => 'field_os2web_webform_attach',
       'label' => 'Webform attachment',
       'required' => 0,
       'settings' => array(
