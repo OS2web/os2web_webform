@@ -137,7 +137,7 @@ function os2web_webform_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_options_webform';
   $strongarm->value = array(
-    0 => 'menu-indholdsmenu',
+    0 => 'os2web-menu-contentmenu',
   );
   $export['menu_options_webform'] = $strongarm;
 
@@ -145,7 +145,7 @@ function os2web_webform_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_parent_webform';
-  $strongarm->value = 'menu-indholdsmenu:0';
+  $strongarm->value = 'os2web-menu-contentmenu:0';
   $export['menu_parent_webform'] = $strongarm;
 
   $strongarm = new stdClass();
