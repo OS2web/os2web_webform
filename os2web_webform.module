@@ -95,3 +95,32 @@ function os2web_webform_node_presave($node) {
     $node->webform['redirect_url'] = 'node/%nid/submission/%sid/download';
   }
 }
+
+/**
+ * Implements hook_theme_registry_alter().
+ *
+ * Apparently the only way to let drupal search modules for themes.
+ * Resource:
+ *   http://www.metachunk.com/blog/adding-module-path-drupal-7-theme-registry
+ */
+function os2web_webform_theme_registry_alter(&$theme_registry) {
+  $mod_path = drupal_get_path('module', 'os2web_webform');
+  // Munge on a copy.
+  $theme_registry_copy = $theme_registry;
+  _theme_process_registry($theme_registry_copy, 'phptemplate', 'theme_engine', 'pow', $mod_path);
+  $theme_registry += array_diff_key($theme_registry_copy, $theme_registry);
+  $hooks = array('node');
+  foreach ($hooks as $h) {
+    _os2web_borger_dk_insert_after_first_element($theme_registry[$h]['theme paths'], $mod_path);
+  }
+}
+
+/**
+ * Helper function for re-ordering arrays (needed by theme_registry_alter).
+ */
+function os2web_webform_insert_after_first_element(&$a, $element) {
+  if (is_array($a)) {
+    $first_element = array_shift($a);
+    array_unshift($a, $first_element, $element);
+  }
+}
