@@ -27,5 +27,3 @@ Adspurgte informationer er:
 
 Filerne kan hentes på et senere tidspunkt vha. url:
 %submission_url
-
-TEST
