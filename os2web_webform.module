@@ -151,7 +151,7 @@ function _os2web_webform_insert_after_first_element(&$array, $element) {
 function os2web_webform_os2web_help($sections) {
 
   // Contenttypes.
-  $sections['contenttype'] = t('<p><b>Webform:</b> Create a <a href="@url" target="_blank">Webform</a> to be able to give your visitors questionaries. Add multiple types of questions to an Webform, an publish it. After saving the webform, you can setup to recieve an email on every submission  under the tab [Webform] -> [Email], as a bonus you can also send a thank you email to the visitor after it is submitted.<br /> When your visitors submit an reply to your webform, it will be saved to a list under [Result] on the Webform. Additionally you can download the complete list of submissions under the tab [Result] -> [Download]</p>');
+  $sections['contenttype'] = t('<p><b>Webform:</b> Create a <a href="@url" target="_blank">Webform</a> to be able to give your visitors questionaries. Add multiple types of questions to an Webform, an publish it. After saving the webform, you can setup to recieve an email on every submission  under the tab [Webform] -> [Email], as a bonus you can also send a thank you email to the visitor after it is submitted.<br /> When your visitors submit an reply to your webform, it will be saved to a list under [Result] on the Webform. Additionally you can download the complete list of submissions under the tab [Result] -> [Download]</p>', array('@url' => 'node/add/webform'));
 
   return $sections;
 }
