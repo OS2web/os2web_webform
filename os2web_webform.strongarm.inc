@@ -314,12 +314,5 @@ function os2web_webform_strongarm() {
   $strongarm->value = 0;
   $export['webform_use_cookies'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'workbench_access_node_type_webform';
-  $strongarm->value = 0;
-  $export['workbench_access_node_type_webform'] = $strongarm;
-
   return $export;
 }
