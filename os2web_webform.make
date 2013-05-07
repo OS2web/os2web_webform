@@ -23,7 +23,7 @@ projects[os2web_taxonomies][download][url] = "https://github.com/OS2web/os2web_t
 
 ; Features + related
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0-beta1"
+projects[features][version] = "2.0-beta2"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -32,7 +32,7 @@ projects[strongarm][version] = "2.0"
 
 ; Basic
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.2"
+projects[ctools][version] = "1.3"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.1"
