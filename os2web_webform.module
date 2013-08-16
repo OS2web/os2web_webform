@@ -77,7 +77,7 @@ function os2web_webform_process_submission(&$submission, $node) {
       'sid' => $submission->sid,
       'nid' => $node->nid,
       'node' => $node,
-      'files' => render($attached_files),
+      'files' => $attached_files,
       'fields' => $fields,
     );
 
